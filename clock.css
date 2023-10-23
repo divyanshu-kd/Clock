@@ -1,0 +1,36 @@
+#Container{
+    position: relative;
+    margin: auto;
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.gif) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 21%;
+    top: 29%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#minute{
+    width: 1.5%;
+    height: 26%;
+    top: 24%;
+    left: 49.1%;
+    opacity: 0.8;
+}
+#second{
+    width: 1%;
+    height: 29.5%;
+    top: 21%;
+    left: 49.4%;
+    opacity: 0.8;
+}
